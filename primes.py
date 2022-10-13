@@ -8,7 +8,7 @@ def primes(number_of_primes):
     isPrime = True
 
     if number_of_primes <= 0:
-        raise ValueError(f"x = {x} should have been a positive number.")
+        raise ValueError(f"x = {number_of_primes} should have been a positive number.")
 
     list.append(2)
 
